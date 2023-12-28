@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/*--font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+/*font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Caveat:wght@600&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(160, 167, 170);
+    width: 209px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 34px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover {
+    font-weight: bold;
+}
+
+
+.main {
+    background-color:linen;
+    width: 89vw;
+}
+
+.infocontainer {
+    height: 70vh;
+    width: 70vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.hello{
+    text-align: center;
+}*/
+.devinfo {
+
+    flex-direction: column;
+    text-align: left;
+    height: 24vh;
+    margin-top: 81px;
+
+}
+
+.hello {
+    font-size: 41px;
+
+}
+
+.name {
+    font-size: 47px;
+    font-weight: bold
+}
+
+.about {
+    font-size: 17px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    background-color: azure;
+    border-bottom-width: medium;
+    color: black;
+    font-weight: bold;
+    font-size: unset;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.buttons button:hover {
+    background-color: rgb(125, 138, 125);
+}
+
+.devpic img {
+    height: 85vh;
+    width: 36vw;
+}
+
+.container {
+    display: flex;
+}
+
